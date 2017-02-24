@@ -26,19 +26,19 @@ function draw() {
   noStroke(); 
   textSize(height/30);
   text("level 1", width/12, height/1.65);
-  text("level 2", width/12, height/2.6);
+  text("level 2", width/12, height/2.5);
   
   stroke(0)
   strokeWeight(2);
   line(0,height/1.6,width,height/1.6);
-  line(0,height/2.5,width,height/2.5);
+  line(0,height/2.4,width,height/2.4);
   
   rectMode(CENTER);
   
   var h1 = map(vol, 0, 1, height/2, 0);    
   
   strokeWeight(1);
-  if(h1*2 <= height/2.5){
+  if(h1*2 <= height/2.4){
    background(0,250,0);
    fill(0,250,0);
    stroke(0);
